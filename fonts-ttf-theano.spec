@@ -45,3 +45,11 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/theano -o %{buildroot}%{_xfontdir}/TTF/the
 %verify(not mtime) %{_datadir}/fonts/TTF/theano/fonts.dir
 %{_xfontdir}/TTF/theano/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-theano:pri=50
+
+
+%changelog
+* Fri Dec 09 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 2.0-1mdv2012.0
++ Revision: 739414
+- BR fixed
+- imported package fonts-ttf-theano
+
