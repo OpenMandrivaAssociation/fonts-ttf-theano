@@ -6,7 +6,7 @@ Version:	2.0
 Release:	2
 License:	OFL
 Group:		System/Fonts/True type
-URL:		http://www.thessalonica.org.ru/en/fonts.html
+URL:		https://www.thessalonica.org.ru/en/fonts.html
 Source0:	http://www.thessalonica.org.ru/downloads/%{pkgname}-%{version}.ttf.zip
 BuildRequires:	freetype-tools
 BuildRequires:	dos2unix
